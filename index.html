@@ -1,29 +1,26 @@
-<!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Test of LiquidFun.js</title>
-    
-    
-    
-    
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-
-    
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js'></script>
-<script src='https://rawgit.com/google/liquidfun/master/liquidfun/Box2D/lfjs/liquidfun.js'></script>
-
-        <script src="js/index.js"></script>
-
-    
-    
-    
-  </body>
+<html>
+	<head>
+		<script src="./js/jquery-1.11.3.min.js"></script>
+		<script src="./js/TweenLite.min.js"></script>
+		<script src="./js/pixi.min.js" type="text/javascript"></script>
+		<script src="./js/matter.min.js" type="text/javascript"></script>
+		<script src="./js/render-pixi-custom.js" type="text/javascript"></script>
+		<script src="./js/fluid.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<table>
+			<tbody>
+				<tr>
+					<th>Fill Controls</th>
+					<td>
+						<button onclick="fill();">Fill</button>
+						<button onclick="empty();">Empty</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="canvas-container" style="position: relative;">
+			<canvas width="600" height="200" style="cursor: inherit;"></canvas>
+		</div>
+	</body>
 </html>
