@@ -1,0 +1,24 @@
+{
+  "name": "fluid-kanji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "acsii.js",
+  "dependencies": {
+    "image-to-ascii": "^3.0.1",
+    "node": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tiotao@github.com/Tiotao/fluid-kanji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiotao/fluid-kanji/issues"
+  },
+  "homepage": "https://github.com/Tiotao/fluid-kanji#readme"
+}
